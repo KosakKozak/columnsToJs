@@ -1,7 +1,5 @@
 # columnsToJs
 Jquery plugin to create Columns layout.
 
-Demo: [Demo Pages](kozakbartosz.pl/git/columnstojs).
-
-
+Demo: [Demo Pages](https://kozakbartosz.pl/git/columnstojs).
 
