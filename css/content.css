@@ -1,0 +1,65 @@
+
+
+
+:root { --font-size: 18px; }
+
+.mceTmpl { border: 0 !important; padding: 0 !important; }
+.ibs { display: block; font-size: 0; margin: -10px; position: relative; }
+.ibsn {overflow: visible; }
+    .ibs.justify { text-align: justify; }
+    .tinymce .ibs { font-size: 18px; font-size: var(--font-size); margin: 10px 0 !important; /*min-height: 25px;*/ outline: 1px dashed #CCC; padding: 3px; }
+.ibs:after { content: ''; display: inline-block; height: 0; width: 100%; }
+    .tinymce .ibs:after { display: none; }
+.ibs .ib { direction: initial; display: inline-block; font-size: 14px; font-size: var(--font-size); margin: 0; max-width: 100%; padding: 10px; position: relative; vertical-align: top; }
+    .tinymce .ib { min-height: 25px; outline: 1px dashed #CCC; outline-offset: -3px; }
+.ibs .ib-12 { width: 100%; }
+.ibs .ib-11 { width: 91.66%; }
+.ibs .ib-10 { width: 83.33%; }
+.ibs .ib-9 { width: 75%; }
+.ibs .ib-8 { width: 66.66%; }
+.ibs .ib-7 { width: 58.33%; }
+.ibs .ib-6 { width: 50%; }
+.ibs .ib-5 { width: 41.66%; }
+.ibs .ib-4 { width: 33.33%; }
+.ibs .ib-3 { width: 25%; }
+.ibs .ib-2 { width: 16.66%; }
+.ibs .ib-1 { width: 8.33%; }
+
+
+.vam,.ibs .vam{
+    vertical-align: middle
+}
+
+.vab,.ibs .vab{
+    vertical-align: bottom;
+}
+
+.rtl {
+    direction: rtl;
+}
+.rtl .ib {
+    direction: ltr;
+}
+
+
+.star {
+    float: left;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 680px) {
+    .ibs { direction: initial !important; }
+    .ibs .ib { width: 100%; }
+}
+
+.table-wrapper { overflow-x: auto; width: 100%; }
+@media only screen and (max-width: 600px) {
+    table.flip { clear: both; display: block; white-space: nowrap; width: 100%; }
+    table.flip thead { display: block; float: left; }
+    table.flip thead tr { display: block; }
+    table.flip tbody { display: block; overflow-x: auto; position: relative; width: auto; }
+    table.flip tbody tr { display: inline-block; vertical-align: top; }
+    table.flip th, table.flip td { display: block; }
+}

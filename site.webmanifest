@@ -1,0 +1,14 @@
+{
+    "name": "columnsToJs",
+    "short_name": "columnsToJs",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#eaedec",
+    "background_color": "#eaedec",
+    "display": "standalone"
+}

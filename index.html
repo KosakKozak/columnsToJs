@@ -1,0 +1,329 @@
+<!doctype html>
+<!--[if lte IE 8]> <html lang="pl" class="no-js ie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pl" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+	<title>columnsToJs</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Redhand.pl - Strony Internetowe Częstochowa">
+	<link rel="icon" href="favicon.png">
+    <link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One|Share:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/content.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7fa5a1">
+    <meta name="apple-mobile-web-app-title" content="columnsToJs">
+    <meta name="application-name" content="columnsToJs">
+    <meta name="msapplication-TileColor" content="#eaedec">
+    <meta name="theme-color" content="#eaedec">
+
+
+</head>
+<body>
+
+<header class="logo container">
+
+    <div class="logo">
+        <div class="logo-img">
+            <a href="#" class="logo-img-e"></a>
+            <a href="#" class="logo-img-e"></a>
+            <a href="#" class="logo-img-e"></a>
+            <a href="#" class="logo-img-e"></a>
+            <a href="#" class="logo-img-e"></a>
+            <a href="#" class="logo-img-e"></a>
+        </div>
+        <h1>columns<strong>To Js</stong> </h1>
+        <small class="logo-bottom">jQuery plugin (1.0)</small>
+        <div class="tac" style="padding-bottom: 30px;">
+            <a href="js/columnstojs.js" class="button">
+                <big>columnstojs.js</big>
+                <span>DOWNLOAD <small>(6,7 kB)</small></span>
+            </a>
+        </div>
+    </div>
+
+</header>
+
+<main class="container">
+
+    <div class="colums0">
+        <div class="article">
+            <h3>Docs: </h2>
+            <p>
+                <strong>count</strong>: number of divisions (int).
+            </p>
+            <p>
+                <strong>gap</strong>: gap between columns (int / px).
+            </p>
+            <p>
+                <strong>fixed</strong>: arrange as optimally as possible (boolean).
+            </p>
+            <p>
+                <strong>check</strong>: stacking accuracy (int / only if fixed is true).
+            </p>
+            <p>
+            <p>
+                <strong>interval</strong>: interval to refresh (boolean / int).
+            </p>
+                <strong>debug</strong>: console logs (boolean).
+            </p>
+        </div>
+
+        <div class="article">
+
+            <h3>Defult settings: </h2>
+            <pre>
+$('.colums1').columnsToJs({
+    count: 3,
+    gap: 20,
+    fixed: true
+    check: 10,
+    interval: false,
+    debug: false
+});
+            </pre>
+        </div>
+
+        <div class="article">
+            <h3>Bug list: </h2>
+            <p>
+                <strong>1. Check (crash)</strong>.
+                it is bigger than the number of elements
+            </p>
+            <p>
+                <strong>2. Firefox</strong>
+                Freezing scroll.
+            </p>
+            <p>
+                <strong>2. Container</strong>
+                container is sometimes too small
+            </p>
+            <p><a href="mailto:kontakt@kozakbartosz.pl?subject=ColumnsToJs - Report a bug">Report a bug</a></p>
+        </div>
+
+        <div class="article">
+            <h3>in the future: </h2>
+            <p>
+                <strong>1. RWD</strong>
+                the ability to add resolution dependencies to all settings.
+            </p>
+            <p>
+                <strong>2. Counting in memory</strong>
+                counting of items in memory.
+            </p>
+            <p>
+                <strong>3. Events</strong>
+            </p>
+        </div>
+
+    </div>
+
+
+
+    <h2>Text columns</h2>
+    <div class="article-wrapper">
+        <div class="article-wrapper-grap colums1">
+            <article class="article">
+                <strong>1. </strong>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet illo sed quas labore, deserunt pariatur eligendi voluptatem odit, ratione possimus, ea asperiores obcaecaearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendisti illum quia praesentium culpa. Enim, laboriosam nisi.</article>
+            <article class="article">
+                <strong>2. </strong>
+                Veritatis nostrum, consequuntur voluptas, doloribus ab libero earum repellendus? Vel tenetur laudantium quas delectus iure nam, alias quos, dicta voluptates laborum porro hic esse consequatur sunt, dolorem autem natus magni!</article>
+            <article class="article">
+                <strong>3. </strong>
+                Quilorem nearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum doloearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendisr sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendisihil sequi illum sapiente voluptatem blanditiis tempore earum quidem similique nostrum accusantium asperiores labore beatae dolor magnam illo neque et atque, cupiditate voluptate, facere quaerat. Odit corrupti sint, eaque!</article>
+            <article class="article">
+                <strong>4. </strong>
+                Aut provident, facilis fugiat consequuntur quibusdam mollitia dolor porro aliquid nisi nihil saepe voluptates cupiditate ab error quosearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendis alias illo, eum eligendi, commodi ut itaque quisquam ipsa. Illum, voluptatem, inventore.</article>
+            <article class="article">
+                <strong>5. </strong>
+                Deserunt autem veniam, officia ipsum temporibus, beatae quia voluptatum, reprehenderit sint est dolores? Architecto ut laboriosam quas a, fugit alias, aut harum illo id officiis reiciendis, quo labore deserunt iure.</article>
+            <article class="article">
+                <strong>6. </strong>
+                Vero doloribus soluta aspernatur. Reiciendis voluptatum dolores atque excepturi eveniet incidunt nesciunt consequatur quidem, aliquid architecto, doloribus modi quibusdam alias ipsum dolore. Adipisci incidunt, repellendus. Ipsa id at soluta tempore!</article>
+            <article class="article">
+                <strong>7. </strong>
+                Praesentium cumque beatae nulla, possimus quidem eveniet mollitia inventore, earum recusandae excepturi tempore suscipit repellendus molestias pariatur! Eius cumque, numquam alias ab dolor, quae dicta ipsa officia modi porro. Quibusdam.</article>
+            <article class="article">
+                <strong>8. </strong>
+                Recusandae dicta cupiditate illum, vero sequi quo. Nulla repellendus earum sunt sequi maxime amet eveniet ducimus fuga at a tempore laborum quis porro illum architecto magnam quidem, necessitatibus, itaque aperiam.</article>
+            <article class="article">
+                <strong>9. </strong>
+                In impedit deserunt sit, ducimus et nisi, dicta eos possimus fugit ipsum, labore! Minima tempora eius enim earum, eum repellendus velit accusantium laborum natus cupiditate, dolorem perferendis eligendi, similique sunt.</article>
+            <article class="article">
+                <strong>10. </strong>
+                Amet, di Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores mollitia dignissimos ipsum! Accusantium maxime, magni cupiditate dolorum iste doloribus earum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendis iusto itaque sint a eos beatae nesciunt voluptas necessitatibus, sunt? Ducimus, cum, inventore!a at facilis quibusdam nihil, consequatur totam assumenda commodi repellat vitae, odit quod nesciunt laborum veniam temporibus dolorem quam esse. Expedita assumenda laudantium velit.</article>
+            <article class="article">
+                <strong>11. </strong>
+                Totam expedita earum doloremque officiis aut aliquam id nulla, repellendus asperiores voluptas ea autem ratione consectetur repudiandae distinctio error iure quae eaque consequuntur reiciendis fuga. Fuga voluptatem magnam hic! Tempore.</article>
+            <article class="article">
+                <strong>12. </strong>
+                Mini Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum molestiae est architecto optio tempora possimus consequuntur, quasi laboriosam assumenda soluta, ullam? Debitis quis explicabo minima accusantium tempore ad. Corporis, tempore.ma vel consequuntur non eum hic sunt modi quasi atque Nostrum sunt quos ab sequi, perspiciatis iure, repellendus exercitationem tenetur facilis sint omnis sed nulla ipsum dolorum natus cumque quod voluptatem eveniet ea adipisci laudantium, eius dolorem officia. In, obcaecati.veniam mollitia vero possimus assumenda, earum, asperiores dolore consectetur dignissimos tempore, ut nulla culpa animi ducimus. Hic alias esse repellat ut fuga doloremque incidunt nulla quia tempore eius facilis quibusdam soluta quaerat optio, laboriosam possimus praesentium officiis aliquid aperiam ipsam recusandae sint. Tenetur pariatur aliquid quos.Sed illum quas quasi.</article>
+            <article class="article">
+                <strong>13. </strong>
+                Rem nisi in, eaque perferendis explicabo eum iusto dolorum odit ratione laudantium, molestiae a nulla, molestias quam! Autem excepturi repellendus ut sit quibusdam nemo placeat, aperiam magni dolorem numquam enim.</article>
+            <article class="article">
+                <strong>14. </strong>
+                Officia, soluta aliquam. Dolorem assumenda iure odio ex at provident ipsum error officiis nisi repellat sint, labore quaerat, mollitia quasi sunt blanditiis. Error, iure quo, totam nam nulla fugiat illum.</article>
+            <article class="article">
+                <strong>15. </strong>
+                Blanditiis sit dolorum obcaecati. Eveniet doloremque repudiandae optio, repellat nihil digniearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendisssimos ab aliquid voluptas corrupti consequuntur, rerum eligendi! Modi beatae dolorem hic ipsam distinctio.</article>
+            <article class="article">
+                <strong>16. </strong>
+                Animi enim officia Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam inventore reiciendis rem quos sed porro quasi laboriosam et accusantium! Minima at impedit nisi, modi eaque illum autem aliquid similique accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolore, quia sequi ab ipsum error voluptatem corrupti voluptatum, in nisi quae tempore quibusdam qui eaque. Rem natus, suscipit voluptas dicta. Sit soluta maiores odio aperiam earum numquam neque, laboriosam dolores repudiandae aspernatur. Dolores, quo, vero. Perferendis rem pariatur sed earum. Ipsam, enim! in odio architecto facilis at Quas a cum temporibus, similique, laborum ex, magni ullam, dicta nesciunt veritatis earum deleniti hic. Deleniti, nihil cum corporis dignissimos quod quasi omnis aut. Iusto mollitia velit eveniet impedit qui!non veniam esse laudantium qui, saepe eos accusantium consequatur dolores, commodi voluptatum cum deleniti assumenda fugit illo. Rem culpa blanditiis quae qui.</article>
+            <article class="article">
+                <strong>17. </strong>
+                Dolores explicabo quasi error perferendis aspernatur reiciendis quisquam dolorem, sunt et cumque. Sed perferendis repudiandae quae iure maxime necessitatibus reiciendis labore repellendus animi asperiores, dolorum aperiam ipsa, quaerat, deserunt voluptas.</article>
+            <article class="article">
+                <strong>18. </strong>
+                In incidunt tempora veniam dicta sit eveniet, quaerat peearum eum tempore quasi sit, numquam, dolorem incidunt similique officia obcaecati. gnissimos eveniet dolore fugiat similique Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique quasi alias eum nam quibusdam, praesentium perferendisrferendis nesciunt sed quam tenetur odit nisi itaque eos quae a ducimus fugiat quos eius, laborum fugit vero maxime doloribus rem porro.</article>
+            <article class="article">
+                <strong>19. </strong>
+                Aspernatur, Culpa ipsam commodi, accusantium maiores quas optio officiis nostrum dolores, ipsum consequuntur explicabo nemo deleniti, alias et! Mollitia nisi beatae dignissimos possimus hic quo vitae blanditiis dolorem, debitis sapiente, adipisci.minima voluptate similique? Molestias laborum quod sapiente dolores expedita quibusdam eum, saepe omnis assumenda architecto deleniti quidem blanditiis, dicta fugit fuga que possimus earum, reprehenderit fuga dignissimos.</article>
+        </div>
+    </div>
+    <h2>Img columns</h2>
+    <div class="article-wrapper-img colums2">
+        <div>
+            <img src="http://9px.pl/300x350" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x200" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x450" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x500" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x550" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x100" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x500" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x300" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x350" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x300" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x450" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x250" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x480" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x390" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x250" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x550" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x470" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x200" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x100" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x500" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x360" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x350" alt="">
+        </div>
+        <div>
+            <img src="http://9px.pl/300x250" alt="">
+        </div>
+    </div>
+    <div class="ibs">
+        <div class="ib ib-6">
+            <h2>Img columns 2 no-fixed</h2>
+            <div class="article-wrapper-img colums3">
+                <div>
+                    <img src="http://9px.pl/300x460/Nr.1" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x150/Nr.2" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x450/Nr.3" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x500/Nr.4" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x250/Nr.5" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x250/Nr.6" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="ib ib-6">
+            <h2>Img columns 2 fixed</h2>
+            <div class="article-wrapper-img colums4">
+                <div>
+                    <img src="http://9px.pl/300x460/Nr.1" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x150/Nr.2" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x450/Nr.3" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x500/Nr.4" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x250/Nr.5" alt="">
+                </div>
+                <div>
+                    <img src="http://9px.pl/300x250/Nr.6" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+<footer class="footer container">
+    <a href="https://kozakbartosz.pl">By kozakbartosz.pl</a>
+</footer>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
